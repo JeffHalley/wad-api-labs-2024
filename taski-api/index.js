@@ -6,6 +6,7 @@ import usersRouter from './api/users';
 
 dotenv.config();
 
+// eslint-disable-next-line no-unused-vars
 const errHandler = (err, req, res, next) => {
   /* if the error in development then send stack trace to display whole error,
   if it's in production then just send error message  */

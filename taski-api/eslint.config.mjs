@@ -7,7 +7,7 @@ export default [
     files: ["**/*.js"],
     languageOptions: {
       globals: globals.node,
-      ecmaVersion: 2015, // ES6
+      ecmaVersion: 2021, // Supports async/await and modern JavaScript (ES12)
       sourceType: "module", // Use module format
     },
     rules: {
